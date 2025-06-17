@@ -13,7 +13,6 @@
         </p>
     </remarks>
     <!-- IMPORT STATEMENTS -->
-    <import href="oscal_metadata_metaschema.xml"/>
     <import href="oscal_implementation-common_metaschema.xml"/>
     <import href="oscal_assessment-common_metaschema.xml"/>
     <!-- TOP LEVEL ASSEMBLY -->
@@ -27,7 +26,6 @@
             <description>A <a href="https://pages.nist.gov/OSCAL/concepts/identifier-use/#machine-oriented">machine-oriented</a>, <a href="https://pages.nist.gov/OSCAL/concepts/identifier-use/#globally-unique">globally unique</a> identifier with <a href="https://pages.nist.gov/OSCAL/concepts/identifier-use/#instance">instance</a>scope that can be used to reference this POA&amp;M instance in <a href="https://pages.nist.gov/OSCAL/concepts/identifier-use/#poam-identifiers">this OSCAL instance</a>. This UUID should be assigned <a href="https://pages.nist.gov/OSCAL/concepts/identifier-use/#consistency">per-subject</a>, which means it should be consistently used to identify the same subject across revisions of the document.</description>
         </define-flag>
         <model>
-            <assembly ref="metadata" min-occurs="1" max-occurs="1"/>
             <!-- QUESTION: should this be a choice with system-id? -->
             <assembly ref="import-ssp" min-occurs="0" max-occurs="1">
                 <remarks>

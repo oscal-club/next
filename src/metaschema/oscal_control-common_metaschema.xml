@@ -13,7 +13,6 @@
         <short-name>oscal-control-common</short-name>
         <namespace>http://csrc.nist.gov/ns/oscal/1.0</namespace>
         <json-base-uri>http://csrc.nist.gov/ns/oscal</json-base-uri>
-        <import href="oscal_metadata_metaschema.xml"/>
         <!-- ######################################## -->
         <!-- # Part Assembly and related constructs # -->
         <!-- ######################################## -->
