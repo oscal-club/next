@@ -13,7 +13,6 @@
     </p>
   </remarks>
   <!-- IMPORT STATEMENTS -->
-  <import href="oscal_metadata_metaschema.xml"/>
   <import href="oscal_assessment-common_metaschema.xml"/>
   <!-- TOP LEVEL ASSEMBLY -->
   <define-assembly name="assessment-results">

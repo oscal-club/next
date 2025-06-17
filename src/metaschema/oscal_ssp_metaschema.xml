@@ -22,7 +22,6 @@
     <p>The root of the OSCAL System Security Plan (SSP) format is <code>system-security-plan</code>.</p>
   </remarks>
 
-  <import href="oscal_metadata_metaschema.xml"/>
   <import href="oscal_implementation-common_metaschema.xml"/>
 
   <!-- ############################################## -->
