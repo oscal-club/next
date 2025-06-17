@@ -47,7 +47,6 @@
                   <prop name="identifier-persistence" value="change-on-write"/>
             </define-flag>
             <model>
-                  <assembly ref="metadata" min-occurs="1"/>
                   <assembly ref="import" min-occurs="1" max-occurs="unbounded">
                         <group-as name="imports" in-json="ARRAY"/>
                   </assembly>

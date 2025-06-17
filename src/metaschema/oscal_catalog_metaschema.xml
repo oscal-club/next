@@ -32,7 +32,6 @@
             </define-flag>
 
             <model>
-                  <assembly ref="metadata" min-occurs="1"/>
                   <assembly ref="parameter" max-occurs="unbounded">
                         <group-as name="params" in-json="ARRAY"/>
                   </assembly>
